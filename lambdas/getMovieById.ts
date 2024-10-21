@@ -17,7 +17,7 @@ const isValidQueryParams = ajv.compile(
  
 const ddbDocClient = createDDbDocClient();
 
-export const handler: APIGatewayProxyHandlerV2 = async (event, context) => {     // Note change
+export const handler: APIGatewayProxyHandlerV2 = async (event, context) => {
   try {
     console.log("[EVENT]", JSON.stringify(event));
     const parameters  = event?.pathParameters;
@@ -54,6 +54,7 @@ export const handler: APIGatewayProxyHandlerV2 = async (event, context) => {    
     }
 
     let body;
+    
     let commandInput: QueryCommandInput = {
       TableName: process.env.CAST_TABLE_NAME,
       KeyConditionExpression: "movieId = :m",

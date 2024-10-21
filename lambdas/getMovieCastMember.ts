@@ -44,7 +44,7 @@ export const handler: APIGatewayProxyHandlerV2 = async (event, context) => {
     
     const movieId = parseInt(queryParams.movieId);
     let commandInput: QueryCommandInput = {
-      TableName: process.env.CAST_TABLE_NAME,
+      TableName: process.env.TABLE_NAME,
     };
     if ("roleName" in queryParams) {
       commandInput = {
