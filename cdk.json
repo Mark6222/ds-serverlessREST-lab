@@ -55,7 +55,7 @@
     "@aws-cdk/aws-opensearchservice:enableOpensearchMultiAzWithStandby": true,
     "globals": {
       "accountNumber": "xxx", 
-      "region": "eu-west-1",
+      "region": "us-east-1",
       "appName": "Demo" 
     }
   }
