@@ -3,22 +3,6 @@ import {Movie} from '../shared/types'
 export const movies : Movie[] = [
   {
     adult: false,
-    backdrop_path: '/sRLC052ieEzkQs9dEtPMfFxYkej.jpg',
-    genre_ids: [ 878 ],
-    id: 848326,
-    original_language: 'en',
-    original_title: 'Rebel Moon - Part One: A Child of Fire',
-    overview: 'When a peaceful colony on the edge of the galaxy finds itself threatened by the armies of the tyrannical Regent Balisarius, they dispatch Kora, a young woman with a mysterious past, to seek out warriors from neighboring planets to help them take a stand.',
-    popularity: 2136.3,
-    poster_path: '/6epeijccmJlnfvFitfGyfT7njav.jpg',
-    release_date: '2023-12-15',
-    title: 'Rebel Moon - Part One: A Child of Fire',
-    video: false,
-    vote_average: 6.4,
-    vote_count: 750
-  },
-  {
-    adult: false,
     backdrop_path: '/jXJxMcVoEuXzym3vFnjqDW4ifo6.jpg',
     genre_ids: [ 28, 12, 14 ],
     id: 572802,
