@@ -1,11 +1,11 @@
-import {Movie} from '../shared/types'
+import {Movie, MovieCast} from '../shared/types'
 
 export const movies : Movie[] = [
   {
     adult: false,
     backdrop_path: '/jXJxMcVoEuXzym3vFnjqDW4ifo6.jpg',
     genre_ids: [ 28, 12, 14 ],
-    id: 572802,
+    id: 1234,
     original_language: 'en',
     original_title: 'Aquaman and the Lost Kingdom',
     overview: "Black Manta, still driven by the need to avenge his father's death and wielding the power of the mythic Black Trident, will stop at nothing to take Aquaman down once and for all. To defeat him, Aquaman must turn to his imprisoned brother Orm, the former King of Atlantis, to forge an unlikely alliance in order to save the world from irreversible destruction.",
@@ -21,7 +21,7 @@ export const movies : Movie[] = [
     adult: false,
     backdrop_path: '/5a4JdoFwll5DRtKMe7JLuGQ9yJm.jpg',
     genre_ids: [ 18, 878, 28 ],
-    id: 695721,
+    id: 2345,
     original_language: 'en',
     original_title: 'The Hunger Games: The Ballad of Songbirds & Snakes',
     overview: '64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.',
@@ -308,3 +308,29 @@ export const movies : Movie[] = [
 ]
 
 
+export const movieCasts: MovieCast[] = [
+  {
+    movieId: 1234,
+    actorName: "Joe Bloggs",
+    roleName: "Male Character 1",
+    roleDescription: "description of character 1",
+  },
+  {
+    movieId: 1234,
+    actorName: "Alice Broggs",
+    roleName: "Female Character 1",
+    roleDescription: "description of character 2",
+  },
+  {
+    movieId: 1234,
+    actorName: "Joe Cloggs",
+    roleName: "Male Character 2",
+    roleDescription: "description of character 3",
+  },
+  {
+    movieId: 2345,
+    actorName: "Joe Bloggs",
+    roleName: "Male Character 1",
+    roleDescription: "description of character 3",
+  },
+];
